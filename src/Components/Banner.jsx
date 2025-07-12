@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="relative z-10 container mx-auto px-4">
                 <Navbar/>
 
-                <div className="text-center py-[100px] md:py-[200px] xl:my-[300px] text-white">
+                <div className="text-center py-[100px] md:py-[200px] xl:py-[380px] text-white">
                     <h1 className="text-3xl md:text-7xl font-extrabold max-w-4xl mx-auto">
                         Unlimited movies, TV  shows and more
                     </h1>

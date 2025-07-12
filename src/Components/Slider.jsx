@@ -31,7 +31,7 @@ export default function Slider() {
   return (
     <div className="w-full bg-[#000000] py-4">
       <div className="relative container">
-        <h2 className="text-white text-4xl font-bold py-4">Trending Now</h2>
+        <h2 className="text-white text-4xl font-bold py-4 mt-10">Trending Now</h2>
         <Swiper
           modules={[Navigation]}
           navigation
