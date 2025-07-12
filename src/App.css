@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Space+Grotesk:wght@300..700&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap'); */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.container {
+     /* width: 100%;
+    max-width: 1240px; */
+    margin: 0px auto;
+    padding: 0px 16px;
+} 
+
+/* p,h5,h6,button,span{
+    font-family: "Roboto", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+ */
+
+
+
+
+ @font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/MyFont.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
+
