@@ -1,24 +1,19 @@
 
 import './App.css'
-import Accordion from './Components/Accordion'
-import ArchiveMovies from './Components/ArchiveMovies'
-import Banner from './Components/Banner'
-import NetflixFooter from './Components/NetflixFooter'
-import Reasons from './Components/Reasons'
-import Slider from './Components/Slider'
+import Home from './pages/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Login from './pages/Login'
 
 function App() {
-
   return (
     <>
-      <Banner />
-      <div className='bg-black'>
-        <Slider />
-        <Reasons />
-        <Accordion />
-        <NetflixFooter/>
-        {/* <ArchiveMovies/> */}
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/login' element={<Login/>} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }

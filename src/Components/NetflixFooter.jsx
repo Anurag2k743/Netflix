@@ -17,7 +17,7 @@ export default function NetflixFooter() {
   ];
 
   return (
-    <footer className="bg-black text-gray-400 px-8 pt-10 pb-20 text-xl">
+    <footer className="bg-black text-gray-400 px-8 pt-10 pb-20 text-md">
       <div className="container">
         <div className="space-y-6">
           {/* Contact Info */}
@@ -51,7 +51,7 @@ export default function NetflixFooter() {
 
           {/* Footer Notes */}
           <p>Netflix India</p>
-          <p className="text-lg text-gray-500">
+          <p className="text-md text-gray-500">
             This page is protected by Google reCAPTCHA to ensure you're not a bot.{" "}
             <a href="#" className="underline">Learn more.</a>
           </p>
