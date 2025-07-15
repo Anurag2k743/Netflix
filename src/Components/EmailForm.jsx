@@ -8,7 +8,7 @@ const EmailForm = () => {
   const [IsActive ,setActive] = useState()
 
   return (
-    <div className="sm:flex items-center justify-between w-full max-w-3xl mx-auto gap-2 mt-3">
+    <div className="sm:flex items-center justify-between w-full max-w-2xl mx-auto gap-2 mt-3">
       <div className="relative w-full">
         <input
           type="email"
