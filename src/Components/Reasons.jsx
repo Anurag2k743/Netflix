@@ -25,19 +25,18 @@ const reasonsdata = [
 
 const Reasons = () => {
     return (
-        <div className="bg-[#000000] py-10">
+        <div className="bg-[#000000] py-5">
             <div className="container">
-
-                <h2 className="text-white text-4xl font-bold py-4">More reasons to join</h2>
+                <h2 className="text-white text-3xl md:text-4xl font-bold py-4">More reasons to join</h2>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-5'>
                     {reasonsdata.map(({ title, content, icon }, index) => (
-                        <div key={index} className="bg-custom-gradient px-6 py-12 rounded-3xl flex flex-col justify-between h-full">
+                        <div key={index} className="bg-custom-gradient px-6 py-8 rounded-3xl flex flex-col justify-between h-full">
                             <div>
                                 <h3 className="text-white text-2xl font-bold mb-4">{title}</h3>
-                                <p className="text-[#9594a0]  font-semibold text-xl">{content}</p>
+                                <p className="text-[#9594a0]  text-lg">{content}</p>
                             </div>
-                            <div className='mt-16 flex justify-end'>
-                                <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+                            <div className='flex justify-end'>
+                                <img src={icon} alt={title} className="w-12 h-12 object-contain" />
                             </div>
                         </div>
                     ))}

@@ -7,13 +7,12 @@ const Banner = () => {
             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-0"></div>
             <div className="relative z-10 container mx-auto px-4">
                 <Navbar/>
-
-                <div className="text-center py-[100px] md:py-[200px] xl:py-[360px] text-white">
-                    <h1 className="text-3xl md:text-7xl  font-extrabold max-w-4xl mx-auto">
+                <div className="text-center py-[100px] md:py-[200px] xl:py-[240px] text-white">
+                    <h1 className="text-4xl md:text-6xl  font-extrabold max-w-4xl mx-auto">
                         Unlimited movies, TV  shows and more
                     </h1>
-                    <h5 className="py-10 text-3xl font-bold">Starts at ₹149. Cancel at any time.</h5>
-                    <p className='text-xl mb-6'>Ready to watch? Enter your email to create or restart your membership.</p>
+                    <h5 className="py-5 md:py-10 text-xl md:text-3xl font-bold">Starts at ₹149. Cancel at any time.</h5>
+                    <p className='text-lg md:text-xl mb-3 md:mb-6'>Ready to watch? Enter your email to create or restart your membership.</p>
                     <EmailForm/>
                 </div>
             </div>

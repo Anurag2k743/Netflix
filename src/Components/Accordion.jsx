@@ -42,20 +42,20 @@ const Accordion = () => {
   return (
     <div className="bg-black">
       <div className="container mx-auto">
-        <h2 className="text-white text-4xl font-bold">Frequently Asked Questions</h2>
+        <h2 className="text-white text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
         <div className='pt-10'>
           {faqData.map((item) => (
             <div key={item.id} className="mt-2">
               <button
                 onClick={() => toggle(item.id)}
-                className="w-full flex justify-between items-center p-6 text-left text-white text-xl bg-[#2d2d2d] hover:bg-[#444] focus:outline-none"  >
-                <span className='text-2xl'>{item.question}</span>
-                <span className="text-5xl font-thin">
+                className="w-full flex justify-between items-center p-3 md:p-6 text-left text-white text-xl bg-[#2d2d2d] hover:bg-[#444] focus:outline-none"  >
+                <span className='text-xl md:text-2xl'>{item.question}</span>
+                <span className=" text-5xl font-thin">
                   {openId === item.id ? '×' : '+'}
                 </span>
               </button>
               {openId === item.id && (
-                <div className="p-6 text-white text-2xl bg-[#2d2d2d] border-t border-black">
+                <div className="p-3 md:p-6 text-white text-xl md:text-2xl bg-[#2d2d2d] border-t border-black">
                   {item.answer}
                 </div>
               )}
