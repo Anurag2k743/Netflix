@@ -40,7 +40,8 @@ export default function Slider() {
           breakpoints={{
             1280: { slidesPerView: 4 },
             1024: { slidesPerView: 3 },
-            768: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
+            540: { slidesPerView: 2 },
             0: { slidesPerView: 1 },
           }}
           className="w-full py-10"

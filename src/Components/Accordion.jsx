@@ -48,14 +48,14 @@ const Accordion = () => {
             <div key={item.id} className="mt-2">
               <button
                 onClick={() => toggle(item.id)}
-                className="w-full flex justify-between items-center p-3 md:p-6 text-left text-white text-xl bg-[#2d2d2d] hover:bg-[#444] focus:outline-none"  >
+                className="w-full flex justify-between items-center p-3 md:p-5 text-left text-white text-xl bg-[#2d2d2d] hover:bg-[#444] focus:outline-none"  >
                 <span className='text-xl md:text-2xl'>{item.question}</span>
                 <span className=" text-5xl font-thin">
                   {openId === item.id ? '×' : '+'}
                 </span>
               </button>
               {openId === item.id && (
-                <div className="p-3 md:p-6 text-white text-xl md:text-2xl bg-[#2d2d2d] border-t border-black">
+                <div className="p-3 md:p-5 text-white text-xl md:text-2xl bg-[#2d2d2d] border-t border-black">
                   {item.answer}
                 </div>
               )}
