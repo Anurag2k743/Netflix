@@ -11,12 +11,12 @@ const EmailForm = () => {
         <input
           type="email"
           id="email"
-          className="peer w-full bg-black bg-opacity-50 rounded-md border border-gray-500 px-6 pt-6 pb-2 text-lg text-white placeholder-transparent focus:border-white focus:outline-none focus:ring-0"
+          className="peer w-full bg-black bg-opacity-50 rounded-md border border-gray-500 px-6 pt-4 pb-2 text-lg text-white placeholder-transparent focus:border-white focus:outline-none focus:ring-0"
           placeholder="Email address"/>
 
         <label
           htmlFor="email"
-          className="absolute left-6 top-4  z-10 origin-[0] scale-100 transform text-lg text-gray-300 transition-all peer-placeholder-shown:top-4 py-2peer-placeholder-shown:scale-100 peer-focus:top-0 peer-focus:scale-75 peer-focus:text-gray-300">
+          className="absolute left-6 top-4  z-10 origin-[0] scale-100 transform text-lg text-gray-300 transition-all peer-placeholder-shown:top-3 py-2peer-placeholder-shown:scale-100 peer-focus:top-0 peer-focus:scale-75 peer-focus:text-gray-300">
           Email address
         </label>
 

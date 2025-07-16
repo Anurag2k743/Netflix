@@ -33,9 +33,9 @@ const Reasons = () => {
                         <div key={index} className="bg-custom-gradient px-6 py-8 rounded-3xl flex flex-col justify-between h-full">
                             <div>
                                 <h3 className="text-white text-2xl font-bold mb-4">{title}</h3>
-                                <p className="text-[#9594a0]  text-lg">{content}</p>
+                                <p className="text-[#9594a0]  text-md">{content}</p>
                             </div>
-                            <div className='flex justify-end'>
+                            <div className='flex justify-end mt-4'>
                                 <img src={icon} alt={title} className="w-12 h-12 object-contain" />
                             </div>
                         </div>
