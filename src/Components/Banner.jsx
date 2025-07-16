@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="relative z-10 container mx-auto px-4">
                 <Navbar />
                 <div className="text-center py-[100px] md:py-[200px] xl:py-[240px] text-white">
-                    <h1 className="text-4xl md:text-6xl  font-extrabold max-w-4xl mx-auto">
+                    <h1 className="text-4xl md:text-6xl  font-extrabold  md:max-w-4xl mx-auto">
                         Unlimited movies, TV  shows and more
                     </h1>
                     <h5 className="py-5 md:py-10 text-xl md:text-3xl font-bold">Starts at ₹149. Cancel at any time.</h5>

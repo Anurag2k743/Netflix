@@ -1,4 +1,3 @@
-// components/EmailForm.jsx
 import React, { useState } from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 const EmailForm = () => {

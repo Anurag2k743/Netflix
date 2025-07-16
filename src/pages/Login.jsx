@@ -8,12 +8,13 @@ const Login = () => {
       <div className="relative bg-[url('/login.jpg')] bg-cover bg-center w-full h-[850px]">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-10"></div>
         <div className="relative z-50">
-          <div className="container">
+
+          <div className="container h-full">
             <nav className="pt-3 px-4">
               <Link to="/" className='text-5xl text-[#e50914] font-bold tracking-wider'>Netflix</Link>
             </nav>
-            <div className='flex justify-center items-center ]'>
-              <div className='max-w-[480px] w-full bg-black bg-opacity-80 p-16 rounded-md'>
+            <div className='flex justify-center items-center  h-[787px]'>
+              <div className='max-w-[480px]  w-full bg-black bg-opacity-80 p-16 rounded-md'>
                 <h1 className='text-4xl text-white font-bold mb-4'>Sign In</h1>
                 <form className='flex flex-col space-y-4'>
                   <div className="relative w-full">
@@ -56,6 +57,7 @@ const Login = () => {
                 </form>
               </div>
             </div>
+
           </div>
         </div>
       </div>
