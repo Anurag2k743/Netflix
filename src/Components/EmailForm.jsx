@@ -23,7 +23,7 @@ const EmailForm = () => {
       </div>
       <button
         type="submit"
-        className="font-bold px-6 py-4 bg-[#e50914] text-white text-xl flex items-center gap-2 rounded border border-transparent whitespace-nowrap mx-auto mt-4 sm:mt-0">
+        className="font-bold px-6 py-3 bg-[#e50914] text-white text-xl flex items-center gap-2 rounded border border-transparent whitespace-nowrap mx-auto mt-4 sm:mt-0">
         Get Started <MdOutlineKeyboardArrowRight fontSize={24} />
       </button>
     </div>
